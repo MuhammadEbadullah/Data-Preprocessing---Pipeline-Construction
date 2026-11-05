@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+.ipynb_checkpoints/
+.DS_Store
+# keep the trained artefact out of git (re-create with `python -m src.train`)
+models/*.joblib

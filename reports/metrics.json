@@ -1,0 +1,22 @@
+{
+  "cv_models": {
+    "LogisticRegression": {
+      "cv_auc_mean": 0.8685,
+      "cv_auc_std": 0.0175
+    },
+    "RandomForest": {
+      "cv_auc_mean": 0.8679,
+      "cv_auc_std": 0.0135
+    }
+  },
+  "best_params": {
+    "model__max_depth": 6,
+    "model__n_estimators": 200,
+    "preprocessor__column_transformer__cat__rare_grouper__min_freq": 0.02,
+    "preprocessor__column_transformer__num__clipper__factor": 3.0
+  },
+  "best_cv_auc": 0.8792,
+  "test_accuracy": 0.8268,
+  "test_f1": 0.7669,
+  "test_roc_auc": 0.8448
+}
